@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+
+<link rel="stylesheet" type="text/css" href="css/styles.css" />
+<link rel="stylesheet" type="text/css" href="css/selectize.default.css" />
+
+<body>
+  <div id="main">
+    <div id="gene-selection">
+      <div id="gene-input">
+	<div id="select-input">
+	  <select id="select-box" name="Genes"></select>
+	</div>
+	<button id="add-button" onclick="addButtonClicked()">Add</button>
+      </div>
+      <select class="results-list" input="1" multiple></select>
+      <button id="remove-button" onclick="removeButtonClicked()"> Remove gene(s) </button>
+    </div>
+    <div class="graph" id="main-view">
+      <p id="loader-txt">Protein interaction network loading. This may take a few minutes.</p>
+    </div>
+  </div>
+</body>
+
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script type="text/javascript" src="deps/papaparse.js"></script>
+<script type="text/javascript" src="deps/selectize.js"></script>
+<script type="text/javascript" src="graph.js"></script>
+
