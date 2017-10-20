@@ -5,6 +5,6 @@ This example renders protein-protein relationships from STRING v10.
 
 Check it out [here](https://rawgit.com/kcanderson/d3ForceNetworkExample/master/index.html).
 
-## Screnshot
+## Screenshot
 
 ![Fanconi anemia](fanconi_example.png)
