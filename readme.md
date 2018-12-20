@@ -3,7 +3,7 @@
 
 This example renders protein-protein relationships from STRING v10.
 
-Check it out [here](https://rawgit.com/kcanderson/d3ForceNetworkExample/master/index.html).
+Check it out [here](https://rawcdn.githack.com/kcanderson/d3ForceNetworkExample/5c6279660bfa070016bf4bd81f45660357d851d2/index.html).
 
 ## Screnshot
 
